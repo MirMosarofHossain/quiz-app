@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins',sans-serif;
+}
+
+body{
+    background-color: #001e4d
+    
+}
+
+.container{
+    width: 70%;
+    max-width: 700px;
+   
+    background-color: white;
+    margin: 100px auto;
+    padding: 30px;
+    border-radius: 7px;
+    
+}
+
+.container h1{
+    padding-bottom: 20px;
+    border-bottom: 1px solid black;
+    margin-bottom: 10px;
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+
+.quiz h2{
+    margin-bottom: 15px;
+    font-weight: 500;
+    font-size: 1.3rem;
+}
+
+.btn{
+    width: 100%;
+    padding: 12px;
+    font-size: 1.2rem;
+    border: 1px solid rgb(57, 53, 53);
+    margin-bottom: 15px;
+    border-radius: 4px;
+    text-align: left;
+    background-color: white;
+}
+
+.btn:hover:not([disabled]){
+    background-color: black;
+    color: white;
+}
+
+.btn:disabled{
+    cursor: no-drop;
+}
+
+#next{
+    background-color: #001e4d;
+    color: white;
+    
+    height: 45px;
+    width: 150px;
+    border-radius: 4px;
+    font-size: 1.1rem;
+    margin: auto;
+    display: none;
+}
+#playAgain{
+    
+    background-color: #001e4d;
+    color: white;
+    
+    height:45px;
+    width: 150px;
+    border-radius: 4px;
+    font-size: 1.2rem;
+    margin: auto;
+    display: none;
+}
+
+.correct{
+    background-color: #88e5b0;
+}
+.incorrect{
+    background-color: #fa8e8e;
+}
+
+/* @media screen and (max-width : 440px){
+
+    .container{
+        
+        width: 370px;
+        
+        
+    }
+
+} */
+
